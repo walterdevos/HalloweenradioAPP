@@ -1,0 +1,18 @@
+#wrapper{
+    height: 960px;
+    width: 720px;
+    background: url('images/back.jpg') no-repeat;
+    padding-top: 1.85em;
+
+}
+
+#player{
+    margin-top: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+audio{
+
+}
