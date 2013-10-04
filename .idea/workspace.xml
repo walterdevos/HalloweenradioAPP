@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380905446307" ignored="false" />
-    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380905016923" ignored="false" />
-    <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380905690874" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380905893068" ignored="false" />
+    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380907271029" ignored="false" />
+    <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380908127640" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="233" selection-end="233" vertical-scroll-proportion="-7.6923075">
+            <state line="17" column="7" selection-start="411" selection-end="411" vertical-scroll-proportion="-13.076923">
               <folding />
             </state>
           </provider>
@@ -43,7 +42,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="241" selection-end="241" vertical-scroll-proportion="0.38990825">
+            <state line="24" column="15" selection-start="385" selection-end="385" vertical-scroll-proportion="0.5504587">
               <folding />
             </state>
           </provider>
@@ -246,7 +245,11 @@
       <created>1380905447454</created>
       <updated>1380905447454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test1">
+      <created>1380905898845</created>
+      <updated>1380905898845</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -339,14 +342,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="233" selection-end="233" vertical-scroll-proportion="-7.6923075">
+        <state line="17" column="7" selection-start="411" selection-end="411" vertical-scroll-proportion="-13.076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="241" selection-end="241" vertical-scroll-proportion="0.38990825">
+        <state line="24" column="15" selection-start="385" selection-end="385" vertical-scroll-proportion="0.5504587">
           <folding />
         </state>
       </provider>
