@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/jplayer.midnight.black.interface.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/jplayer.midnight.black.playlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/jplayer.midnight.black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/jplayer.midnight.black.seeking.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/jplayer.midnight.black.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/jplayer.midnight.black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.jplayer.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/jplayer.midnight.black.css" afterPath="$PROJECT_DIR$/skin/jplayer.midnight.black.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380908226434" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910707283" ignored="false" />
     <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910671981" ignored="false" />
     <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380908127640" ignored="false" />
     <file path="/jplayer.blue.monday.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910276914" ignored="false" />
@@ -40,7 +34,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="525" selection-end="525" vertical-scroll-proportion="0.33096927">
+            <state line="53" column="0" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.6855792">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jplayer.midnight.black.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/jplayer.midnight.black.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="1" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,6 +79,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/jplayer.pink.flag.css" />
         <option value="$PROJECT_DIR$/skin/jplayer.blue.monday.css" />
+        <option value="$PROJECT_DIR$/skin/jplayer.midnight.black.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -295,7 +299,11 @@
       <created>1380908232067</created>
       <updated>1380908232067</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test1">
+      <created>1380910712891</created>
+      <updated>1380910712891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,14 +403,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/jplayer.midnight.black.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="996" selection-end="996" vertical-scroll-proportion="0.7683353">
+        <state line="48" column="1" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="525" selection-end="525" vertical-scroll-proportion="0.33096927">
+        <state line="53" column="0" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.6855792">
           <folding />
         </state>
       </provider>
