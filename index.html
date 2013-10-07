@@ -34,17 +34,17 @@
 
             // Update my_media position every second
             if (mediaTimer == null) {
-                mediaTimer = setInterval(function() {
+                mediaTimer = setInterval(function () {
                     // get my_media position
                     my_media.getCurrentPosition(
                             // success callback
-                            function(position) {
+                            function (position) {
                                 if (position > -1) {
                                     setAudioPosition((position) + " sec");
                                 }
                             },
                             // error callback
-                            function(e) {
+                            function (e) {
                                 console.log("Error getting pos=" + e);
                                 setAudioPosition("Error: " + e);
                             }
@@ -80,7 +80,7 @@
         // onError Callback
         //
         function onError(error) {
-            alert('code: '    + error.code    + '\n' +
+            alert('code: ' + error.code + '\n' +
                     'message: ' + error.message + '\n');
         }
 
@@ -96,18 +96,17 @@
 <div id="wrapper">
     <div id="player_wrapper">
 
-        <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet');">Play Audio</a>
-        <a href="#" class="btn large" onclick="pauseAudio();">Pause Playing Audio</a>
-        <a href="#" class="btn large" onclick="stopAudio();">Stop Playing Audio</a>
-        <p id="audio_position"></p>
-
-        <div id="player">
-
-            <audio autoplay="autoplay" controls="controls" id="video" src="http://listen.radionomy.com/halloweenradionet" >
-
-            </audio>
-
+        <div id="controllers">
+            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet');"><img src="images/Play_48x48.png" alt="play"/></a>
+            <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
+            <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
+            <br>
+            <p id="audio_position"></p>
         </div>
+        <!--        <div id="player">
+                    <audio autoplay="autoplay" controls="controls" id="video" src="http://listen.radionomy.com/halloweenradionet" >
+                    </audio>
+                </div>-->
     </div>
 </div>
 </body>
