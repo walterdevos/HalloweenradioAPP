@@ -7,7 +7,7 @@
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381167885101" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381168063598" ignored="false" />
     <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381168039321" ignored="false" />
     <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380908127640" ignored="false" />
     <file path="/jplayer.blue.monday.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910276914" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="110" selection-start="564" selection-end="564" vertical-scroll-proportion="0.4491726">
+            <state line="19" column="58" selection-start="512" selection-end="512" vertical-scroll-proportion="0.4491726">
               <folding />
             </state>
           </provider>
@@ -373,7 +373,11 @@
       <created>1381167886640</created>
       <updated>1381167886640</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="v1.1">
+      <created>1381168065180</created>
+      <updated>1381168065180</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -502,7 +506,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="110" selection-start="564" selection-end="564" vertical-scroll-proportion="0.4491726">
+        <state line="19" column="58" selection-start="512" selection-end="512" vertical-scroll-proportion="0.4491726">
           <folding />
         </state>
       </provider>
