@@ -29,6 +29,16 @@ body{
     margin-left: auto;
     margin-right: auto;
     width:420px;
+    height: 320px;
+    background-image: url("back2.jpg");
+}
+
+#video{
+    position: absolute;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
 }
 
 
