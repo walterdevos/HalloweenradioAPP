@@ -22,7 +22,7 @@
 
     <access origin="*" />
 
-    <gap:plugin name="org.apache.cordova.core.audiohandler" />
+    <gap:plugin name="org.apache.cordova.core.audiohandler" version="0.2.1" />
 
 
 </widget>
