@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="DELETED" beforePath="I:\#HTML5\HalloweenradioAPP\images\back.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381167561487" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381167851382" ignored="false" />
     <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381167823206" ignored="false" />
     <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380908127640" ignored="false" />
     <file path="/jplayer.blue.monday.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910276914" ignored="false" />
@@ -42,10 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="6" selection-start="692" selection-end="692" vertical-scroll-proportion="0.59101653">
+            <state line="25" column="6" selection-start="692" selection-end="692" vertical-scroll-proportion="-19.23077">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+            <state line="21" column="16" selection-start="320" selection-end="320" vertical-scroll-proportion="0.48165137">
               <folding />
             </state>
           </provider>
@@ -91,8 +91,8 @@
         <option value="$PROJECT_DIR$/skin/jplayer.blue.monday.css" />
         <option value="$PROJECT_DIR$/skin/jplayer.midnight.black.css" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -366,7 +366,11 @@
       <created>1381167564440</created>
       <updated>1381167564440</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="v1.1">
+      <created>1381167855246</created>
+      <updated>1381167855246</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,16 +490,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+        <state line="25" column="6" selection-start="692" selection-end="692" vertical-scroll-proportion="-19.23077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="6" selection-start="692" selection-end="692" vertical-scroll-proportion="0.59101653">
+        <state line="21" column="16" selection-start="320" selection-end="320" vertical-scroll-proportion="0.48165137">
           <folding />
         </state>
       </provider>
