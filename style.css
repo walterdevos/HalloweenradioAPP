@@ -28,17 +28,16 @@ body{
 #player{
     margin-left: auto;
     margin-right: auto;
-    width:420px;
-    height: 320px;
-    background-image: url("back2.jpg");
+    background: url("back2.jpg") no-repeat;
+    width:70%;
+    min-height: 320px;
+    max-width: 420px;
 }
 
 #video{
     position: absolute;
     bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 420px;
+    width:50%;
 }
 
 
