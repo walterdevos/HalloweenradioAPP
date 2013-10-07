@@ -22,9 +22,7 @@
 
     <access origin="*" />
 
-    <feature name="Media">
-        <param name="android-package" value="org.apache.cordova.AudioHandler" />
-    </feature>
+    <gap:plugin name="org.apache.cordova.core.audiohandler" />
 
 
 </widget>
