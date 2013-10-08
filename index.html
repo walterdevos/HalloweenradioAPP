@@ -27,10 +27,9 @@
         //
         function playAudio(src) {
             // Create Media object from src
-            if (my_media) {
-                my_media.stop();
+            if (my_media == null) {
+                           my_media = new Media(src, onSuccess, onError);
             }
-            my_media = new Media(src, onSuccess, onError);
 
             // Play audio
             my_media.play();
@@ -42,7 +41,7 @@
                     my_media.getCurrentPosition(
                             // success callback
                             function (position) {
-                                if (position > -1) {
+                                if (position > 0) {
                                     setAudioPosition((position) + " sec");
                                 }
                                 else {
@@ -75,6 +74,7 @@
             }
             clearInterval(mediaTimer);
             mediaTimer = null;
+            my_media = null;
         }
 
         // onSuccess Callback
