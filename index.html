@@ -22,6 +22,7 @@
         //
         var my_media = null;
         var mediaTimer = null;
+        var paused = false;
 
         // Play audio
         //
@@ -33,6 +34,7 @@
 
             // Play audio
             my_media.play();
+            paused = false;
 
             // Update my_media position every second
             if (mediaTimer == null) {
@@ -61,8 +63,9 @@
         // Pause audio
         //
         function pauseAudio() {
-            if (my_media) {
+            if (my_media && !paused ) {
                 my_media.pause();
+                paused = true;
             }
         }
 
