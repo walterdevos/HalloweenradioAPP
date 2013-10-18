@@ -18,6 +18,26 @@
             playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");
         }
 
+        function showstatus(title) {
+            // get my_media position
+            my_media.getCurrentPosition(
+                    // success callback
+                    function (position) {
+                        if (position > 0) {
+                            setAudioPosition("Playing " + title);
+                        }
+                        else {
+                            setAudioPosition("Buffering...");
+                        }
+                    },
+                    // error callback
+                    function (e) {
+                        console.log("Error getting pos=" + e);
+                        setAudioPosition("Error: " + e);
+                    }
+            );
+        }
+
         // Audio player
         //
         var my_media = null;
@@ -43,25 +63,7 @@
 
             // Update my_media position every second
             if (mediaTimer == null) {
-                mediaTimer = setInterval(function (title) {
-                    // get my_media position
-                    my_media.getCurrentPosition(
-                            // success callback
-                            function (position) {
-                                if (position > 0) {
-                                    setAudioPosition("Playing " + title);
-                                }
-                                else {
-                                    setAudioPosition("Buffering...");
-                                }
-                            },
-                            // error callback
-                            function (e) {
-                                console.log("Error getting pos=" + e);
-                                setAudioPosition("Error: " + e);
-                            }
-                    );
-                }, 1000);
+                mediaTimer = setInterval(showstatus , 1000 , title);
             }
         }
 
@@ -138,9 +140,9 @@
         </div>
     </div>
 
-    <br>
-
-    <p id="audio_position"></p>
+    <div id="status_wrapper">
+        <p id="audio_position"></p>
+    </div>
 
 </div>
 </body>

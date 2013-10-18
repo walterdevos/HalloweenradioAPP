@@ -36,6 +36,12 @@ img.title {
     top :450px;
     width:100%;
 }
+#status_wrapper{
+    position: absolute;
+    top :600px;
+    width:100%;
+}
+
 
 #controllers1 , #controllers2 , #controllers3 {
     text-align: center;
