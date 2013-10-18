@@ -28,26 +28,25 @@ img.title {
  }
 #player_wrapper2{
     position: absolute;
-    top :150px;
+    top :180px;
     width:100%;
 }
 #player_wrapper3{
     position: absolute;
-    top :250px;
+    top :310px;
     width:100%;
 }
 #status_wrapper{
     position: absolute;
-    top :350px;
+    top :440px;
     width:100%;
     text-align: center;
 }
 
 #option_wrapper{
     position: absolute;
-    top :450px;
+    top :570px;
     width:100%;
-    text-align: center;
 }
 
 #status_wrapper p {
