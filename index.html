@@ -107,8 +107,7 @@
             if (my_media && !paused ) {
                 my_media.pause();
                 paused = true;
-            }
-            if (my_media && paused) {
+            } else if (my_media && paused) {
                 my_media.play();
                 paused = false;
             }
