@@ -7,8 +7,8 @@
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382122329847" ignored="false" />
-    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382121900143" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382122642327" ignored="false" />
+    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382122972149" ignored="false" />
     <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382121228739" ignored="false" />
     <file path="/jplayer.blue.monday.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910276914" ignored="false" />
     <file path="/config.xml" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381191474652" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="43" selection-start="1871" selection-end="1871" vertical-scroll-proportion="0.4950495">
+            <state line="25" column="32" selection-start="868" selection-end="868" vertical-scroll-proportion="0.6188119">
               <folding />
             </state>
           </provider>
@@ -568,7 +568,11 @@
       <created>1382122332630</created>
       <updated>1382122332631</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="v1.1">
+      <created>1382122645771</created>
+      <updated>1382122645771</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -751,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="43" selection-start="1871" selection-end="1871" vertical-scroll-proportion="0.4950495">
+        <state line="25" column="32" selection-start="868" selection-end="868" vertical-scroll-proportion="0.6188119">
           <folding />
         </state>
       </provider>

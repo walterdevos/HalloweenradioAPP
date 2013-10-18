@@ -20,7 +20,7 @@
         // device APIs are available
         //
         function onDeviceReady() {
-            playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");
+            if (!my_media) { playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");}
         }
 
         function onStartCall() {
