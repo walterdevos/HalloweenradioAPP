@@ -23,22 +23,22 @@ img.title {
 
 #player_wrapper1{
      position: absolute;
-     top :150px;
+     top :50px;
      width:100%;
  }
 #player_wrapper2{
     position: absolute;
-    top :300px;
+    top :200px;
     width:100%;
 }
 #player_wrapper3{
     position: absolute;
-    top :450px;
+    top :350px;
     width:100%;
 }
 #status_wrapper{
     position: absolute;
-    top :600px;
+    top :500px;
     width:100%;
 }
 

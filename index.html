@@ -18,7 +18,7 @@
             playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");
         }
 
-        function showstatus(title) {
+/*        function showstatus(title) {
             // get my_media position
             my_media.getCurrentPosition(
                     // success callback
@@ -36,7 +36,7 @@
                         setAudioPosition("Error: " + e);
                     }
             );
-        }
+        }*/
 
         // Audio player
         //
@@ -60,11 +60,7 @@
             // Play audio
             my_media.play();
             paused = false;
-
-            // Update my_media position every second
-            if (mediaTimer == null) {
-                mediaTimer = setInterval(showstatus , 1000 , title);
-            }
+            setAudioPosition("Playing " + title);
         }
 
         // Pause audio
@@ -73,6 +69,7 @@
             if (my_media && !paused ) {
                 my_media.pause();
                 paused = true;
+                setAudioPosition("Paused " + title);
             }
         }
 
