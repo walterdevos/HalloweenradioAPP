@@ -26,10 +26,15 @@
 
         // Play audio
         //
-        function playAudio(src) {
+        function playAudio(src,title) {
             // Create Media object from src
             if (my_media == null) {
                            my_media = new Media(src, onSuccess, onError);
+            } else {
+                if (my_media) {
+                    my_media.stop();
+                    my_media = new Media(src, onSuccess, onError);
+                }
             }
 
             // Play audio
@@ -44,7 +49,7 @@
                             // success callback
                             function (position) {
                                 if (position > 0) {
-                                    setAudioPosition("Playing...");
+                                    setAudioPosition("Playing " + title);
                                 }
                                 else {
                                     setAudioPosition("Buffering...");
@@ -74,6 +79,7 @@
         function stopAudio() {
             if (my_media) {
                 my_media.stop();
+                setAudioPosition("Stopped.");
             }
             clearInterval(mediaTimer);
             mediaTimer = null;
@@ -104,48 +110,35 @@
 </head>
 <body>
 <div id="wrapper">
+
     <div id="player_wrapper1">
-
         <div id="controllers">
-            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet');"><img src="images/Play_48x48.png" alt="play"/></a>
+            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/Play_48x48.png" alt="play"/></a>
             <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
-            <br>
-            <p id="audio_position"></p>
         </div>
-        <!--        <div id="player">
-                    <audio autoplay="autoplay" controls="controls" id="video" src="http://listen.radionomy.com/halloweenradionet" >
-                    </audio>
-                </div>-->
     </div>
+
     <div id="player_wrapper2">
-
         <div id="controllers">
-            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_atmosphere_2012');"><img src="images/Play_48x48.png" alt="play"/></a>
+            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_atmosphere_2012','Halloweenradio Atmosphere');"><img src="images/Play_48x48.png" alt="play"/></a>
             <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
-            <br>
-            <p id="audio_position"></p>
         </div>
-        <!--        <div id="player">
-                    <audio autoplay="autoplay" controls="controls" id="video" src="http://listen.radionomy.com/halloweenradionet" >
-                    </audio>
-                </div>-->
     </div>
+
     <div id="player_wrapper3">
-
         <div id="controllers">
-            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_oldies_2012');"><img src="images/Play_48x48.png" alt="play"/></a>
+            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_oldies_2012','Halloweenradio Oldies');"><img src="images/Play_48x48.png" alt="play"/></a>
             <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
-            <br>
-            <p id="audio_position"></p>
         </div>
-        <!--        <div id="player">
-                    <audio autoplay="autoplay" controls="controls" id="video" src="http://listen.radionomy.com/halloweenradionet" >
-                    </audio>
-                </div>-->
     </div>
+
+    <br>
+
+    <p id="audio_position"></p>
+
 </div>
 </body>
 </html>
