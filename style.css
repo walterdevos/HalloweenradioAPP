@@ -33,15 +33,7 @@ body{
     width:100%;
 }
 
-#player{
-    margin-left: auto;
-    margin-right: auto;
-    background: url("back2.jpg") no-repeat;
-    width:50%;
-    min-height: 320px;
-}
-
-#controllers {
+#controllers1 , #controllers2 , #controllers3 {
     text-align: center;
     width: 160px;
     margin-left: auto;
