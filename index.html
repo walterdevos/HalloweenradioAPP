@@ -49,15 +49,13 @@
         function playInBackground(){
             if (pib){
                 document.removeEventListener("pause",onStartCall);
-                document.removeEventListener("resume", onEndCall);
                 pib = false;
-                document.getElementById('pib').src="pibno.png";
+                document.getElementById('pib').src="pibyes.png";
 
             }else{
                 document.addEventListener("pause", onStartCall, false);
-                document.addEventListener("resume", onEndCall, false);
                 pib = true;
-                document.getElementById('pib').src="pibyes.png";
+                document.getElementById('pib').src="pibno.png";
             }
         }
 
