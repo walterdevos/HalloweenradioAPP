@@ -25,12 +25,13 @@
         var my_media = null;
         var mediaTimer = null;
         var paused = false;
-        var title = "";
+        var playtitle = "";
 
         // Play audio
         //
         function playAudio(src,title) {
             // Create Media object from src
+           playtitle = title;
             if (my_media == null) {
                            my_media = new Media(src, onSuccess, onError);
             } else {
@@ -84,7 +85,6 @@
         // Set audio position
         //
         function setAudioPosition(position) {
-            //if(position < 10) {position = 'buffering...';}
             document.getElementById('audio_position').innerHTML = position;
         }
 
@@ -97,10 +97,10 @@
                         function (position) {
                             if (position > 0) {
                                 if( !paused) {
-                                    setAudioPosition("Playing " + title);
+                                    setAudioPosition("Playing " + playtitle);
                                 }
                                 else{
-                                    setAudioPosition("Paused " + title);
+                                    setAudioPosition("Paused " + playtitle);
                                 }
                             }
                             else {
