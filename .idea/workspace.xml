@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382121574457" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382121916359" ignored="false" />
     <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382121900143" ignored="false" />
     <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382121228739" ignored="false" />
     <file path="/jplayer.blue.monday.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910276914" ignored="false" />
@@ -45,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="7" selection-start="7729" selection-end="7729" vertical-scroll-proportion="0.85148513">
+            <state line="35" column="13" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.6287129">
               <folding />
             </state>
           </provider>
@@ -561,7 +560,11 @@
       <created>1382121576103</created>
       <updated>1382121576103</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="v1.1">
+      <created>1382121920351</created>
+      <updated>1382121920351</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -744,7 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="7" selection-start="7729" selection-end="7729" vertical-scroll-proportion="0.85148513">
+        <state line="35" column="13" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.6287129">
           <folding />
         </state>
       </provider>

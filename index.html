@@ -31,6 +31,7 @@
 
         function onEndCall() {
             if (my_media) {
+                my_media.pause();
                 my_media.play();
             }
         }
@@ -47,8 +48,8 @@
         // Play in background switch
         function playInBackground(){
             if (pib){
-                document.removeEventListener("pause",onStartCall,false);
-                document.removeEventListener("resume", onEndCall, false);
+                document.removeEventListener("pause",onStartCall);
+                document.removeEventListener("resume", onEndCall);
                 pib = false;
                 document.getElementById('pib').src="pibno.png";
 
