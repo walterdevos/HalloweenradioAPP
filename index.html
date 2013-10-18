@@ -44,7 +44,7 @@
                             // success callback
                             function (position) {
                                 if (position > 0) {
-                                    setAudioPosition((position) + " sec");
+                                    setAudioPosition("Playing...");
                                 }
                                 else {
                                     setAudioPosition("Buffering...");
@@ -104,7 +104,7 @@
 </head>
 <body>
 <div id="wrapper">
-    <div id="player_wrapper">
+    <div id="player_wrapper1">
 
         <div id="controllers">
             <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet');"><img src="images/Play_48x48.png" alt="play"/></a>
@@ -118,7 +118,7 @@
                     </audio>
                 </div>-->
     </div>
-    <div id="player_wrapper">
+    <div id="player_wrapper2">
 
         <div id="controllers">
             <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_atmosphere_2012');"><img src="images/Play_48x48.png" alt="play"/></a>
@@ -132,7 +132,7 @@
                     </audio>
                 </div>-->
     </div>
-    <div id="player_wrapper">
+    <div id="player_wrapper3">
 
         <div id="controllers">
             <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_oldies_2012');"><img src="images/Play_48x48.png" alt="play"/></a>
