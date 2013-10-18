@@ -18,31 +18,14 @@
             playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");
         }
 
-/*        function showstatus(title) {
-            // get my_media position
-            my_media.getCurrentPosition(
-                    // success callback
-                    function (position) {
-                        if (position > 0) {
-                            setAudioPosition("Playing " + title);
-                        }
-                        else {
-                            setAudioPosition("Buffering...");
-                        }
-                    },
-                    // error callback
-                    function (e) {
-                        console.log("Error getting pos=" + e);
-                        setAudioPosition("Error: " + e);
-                    }
-            );
-        }*/
+/*       */
 
         // Audio player
         //
         var my_media = null;
         var mediaTimer = null;
         var paused = false;
+        var title = "";
 
         // Play audio
         //
@@ -69,7 +52,6 @@
             if (my_media && !paused ) {
                 my_media.pause();
                 paused = true;
-                setAudioPosition("Paused " + title);
             }
         }
 
@@ -78,11 +60,12 @@
         function stopAudio() {
             if (my_media) {
                 my_media.stop();
-                setAudioPosition("Stopped.");
             }
             clearInterval(mediaTimer);
             mediaTimer = null;
             my_media = null;
+            setAudioPosition("Stopped.");
+
         }
 
         // onSuccess Callback
@@ -104,6 +87,36 @@
             //if(position < 10) {position = 'buffering...';}
             document.getElementById('audio_position').innerHTML = position;
         }
+
+        // Update my_media position every second
+        if (mediaTimer == null) {
+            mediaTimer = setInterval(function () {
+                // get my_media position
+                my_media.getCurrentPosition(
+                        // success callback
+                        function (position) {
+                            if (position > 0) {
+                                if( !paused) {
+                                    setAudioPosition("Playing " + title);
+                                }
+                                else{
+                                    setAudioPosition("Paused " + title);
+                                }
+                            }
+                            else {
+                                setAudioPosition("Buffering...");
+                            }
+                        },
+                        // error callback
+                        function (e) {
+                            console.log("Error getting pos=" + e);
+                            setAudioPosition("Error: " + e);
+                        }
+                );
+            }, 1000);
+        }
+
+
 
     </script>
 </head>
