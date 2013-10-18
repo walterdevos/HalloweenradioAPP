@@ -21,11 +21,15 @@
         }
 
         function onStartCall() {
-            pauseAudio();
+            if (my_media) {
+                my_media.pause();
+            }
         }
 
         function onEndCall() {
-            pauseAudio();
+            if (my_media) {
+                my_media.play();
+            }
         }
 
 
