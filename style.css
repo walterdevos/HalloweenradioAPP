@@ -40,6 +40,12 @@ img.title {
     position: absolute;
     top :500px;
     width:100%;
+    text-align: center;
+}
+
+#status_wrapper p {
+    text-align: center;
+    width:100%;
 }
 
 
