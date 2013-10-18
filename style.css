@@ -17,6 +17,10 @@ body{
     background-size: 100% 100%;
 }
 
+img.title {
+    width: 100%;
+}
+
 #player_wrapper1{
      position: absolute;
      top :150px;
