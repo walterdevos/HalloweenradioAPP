@@ -7,8 +7,8 @@
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382105088525" ignored="false" />
-    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382105042575" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382106841568" ignored="false" />
+    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382106789733" ignored="false" />
     <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382099570600" ignored="false" />
     <file path="/jplayer.blue.monday.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910276914" ignored="false" />
     <file path="/config.xml" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381191474652" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="0" selection-start="3755" selection-end="3755" vertical-scroll-proportion="-9.803922">
+            <state line="28" column="30" selection-start="895" selection-end="895" vertical-scroll-proportion="-10.980392">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1146789">
+            <state line="29" column="14" selection-start="873" selection-end="873" vertical-scroll-proportion="0.6651376">
               <folding />
             </state>
           </provider>
@@ -515,7 +515,23 @@
       <created>1382105091457</created>
       <updated>1382105091457</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="v1.1">
+      <created>1382105195812</created>
+      <updated>1382105195812</updated>
+    </task>
+    <task id="LOCAL-00064" summary="v1.1">
+      <created>1382105396017</created>
+      <updated>1382105396017</updated>
+    </task>
+    <task id="LOCAL-00065" summary="v1.1">
+      <created>1382105739873</created>
+      <updated>1382105739873</updated>
+    </task>
+    <task id="LOCAL-00066" summary="v1.1">
+      <created>1382106844299</created>
+      <updated>1382106844299</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -684,14 +700,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="0" selection-start="3755" selection-end="3755" vertical-scroll-proportion="-9.803922">
+        <state line="28" column="30" selection-start="895" selection-end="895" vertical-scroll-proportion="-10.980392">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1146789">
+        <state line="29" column="14" selection-start="873" selection-end="873" vertical-scroll-proportion="0.6651376">
           <folding />
         </state>
       </provider>
