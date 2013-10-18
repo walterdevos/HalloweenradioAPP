@@ -12,8 +12,10 @@
         // Wait for device API libraries to load
         //
         document.addEventListener("deviceready", onDeviceReady, false);
-        document.addEventListener("pause", onStartCall, false);
-        document.addEventListener("resume", onEndCall, false);
+        //document.addEventListener("pause", onStartCall, false);
+        //document.addEventListener("resume", onEndCall, false);
+
+
 
         // device APIs are available
         //
@@ -33,17 +35,30 @@
             }
         }
 
-
-
-/*       */
-
         // Audio player
         //
         var my_media = null;
         var mediaTimer = null;
         var paused = false;
+        var pib = false;
         var title ='';
         var playtitle ='';
+
+        // Play in background switch
+        function playInBackground(){
+            if (pib){
+                document.removeEventListener("pause",onStartCall,false);
+                document.removeEventListener("resume", onEndCall, false);
+                pib = false;
+                document.getElementById('pib').src="pibno.png";
+
+            }else{
+                document.addEventListener("pause", onStartCall, false);
+                document.addEventListener("resume", onEndCall, false);
+                pib = true;
+                document.getElementById('pib').src="pibyes.png";
+            }
+        }
 
 
         // Play audio
@@ -164,6 +179,8 @@
 
 
 
+
+
     </script>
 </head>
 <body>
@@ -198,6 +215,12 @@
 
     <div id="status_wrapper">
         <p id="audio_position"></p>
+    </div>
+
+    <div id="option_wrapper">
+        <div id="options">
+            <a href="#" class="options" onclick="playInBackground();"><img src="pibyes.png" alt="play in background" id="pib"/></a>
+        </div>
     </div>
 
 </div>
