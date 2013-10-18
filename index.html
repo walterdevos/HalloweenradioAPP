@@ -11,8 +11,8 @@
         // Wait for device API libraries to load
         //
         document.addEventListener("deviceready", onDeviceReady, false);
-        document.addEventListener("startcallbutton", onStartCall, false);
-        document.addEventListener("endcallbutton", onEndCall, false);
+        document.addEventListener("pause", onStartCall, false);
+        document.addEventListener("resume", onEndCall, false);
 
         // device APIs are available
         //

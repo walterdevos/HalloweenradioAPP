@@ -25,9 +25,5 @@
     <feature name="Media">
         <param name="android-package" value="org.apache.cordova.AudioHandler" />
     </feature>
-    <feature name="Battery">
-        <param name="android-package" value="org.apache.cordova.BatteryListener" />
-    </feature>
-
 
 </widget>
