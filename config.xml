@@ -17,10 +17,7 @@
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="false" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE " />
-
+    <preference name="permissions"  value="none"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
 
     <access origin="*" />
