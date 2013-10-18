@@ -39,6 +39,7 @@
             } else {
                 if (my_media) {
                     my_media.stop();
+                    clearHighlights();
                     my_media = new Media(src, onSuccess, onError);
                 }
             }
@@ -49,7 +50,42 @@
             setAudioPosition("Playing " + title);
             window.title = title;
             if (title == "Halloweenradio"){
-                document.getElementById('hrp').style.width="100px";
+                document.getElementById('hrp').src="images/Play2_48x48.png";
+            }
+            if (title == "Halloweenradio Atmosphere"){
+                document.getElementById('hrap').src="images/Play2_48x48.png";
+            }
+            if (title == "Halloweenradio Oldies"){
+                document.getElementById('hrop').src="images/Play2_48x48.png";
+            }
+
+            // Update my_media position every second
+            if (mediaTimer == null) {
+                mediaTimer = setInterval(function () {
+                    // get my_media position
+                    my_media.getCurrentPosition(
+                            // success callback
+                            function (position) {
+                                playtitle = window.title;
+                                if (position > 0) {
+                                    if( !paused) {
+                                        setAudioPosition("Playing " + playtitle);
+                                    }
+                                    else{
+                                        setAudioPosition("Paused " + playtitle);
+                                    }
+                                }
+                                else {
+                                    setAudioPosition("Buffering...");
+                                }
+                            },
+                            // error callback
+                            function (e) {
+                                console.log("Error getting pos=" + e);
+                                setAudioPosition("Error: " + e);
+                            }
+                    );
+                }, 1000);
             }
         }
 
@@ -72,6 +108,7 @@
             mediaTimer = null;
             my_media = null;
             setAudioPosition("Stopped.");
+            clearHighlights();
 
         }
 
@@ -94,34 +131,13 @@
             document.getElementById('audio_position').innerHTML = position;
         }
 
-        // Update my_media position every second
-        if (mediaTimer == null) {
-            mediaTimer = setInterval(function () {
-                // get my_media position
-                my_media.getCurrentPosition(
-                        // success callback
-                        function (position) {
-                            playtitle = window.title;
-                            if (position > 0) {
-                                if( !paused) {
-                                    setAudioPosition("Playing " + playtitle);
-                                }
-                                else{
-                                    setAudioPosition("Paused " + playtitle);
-                                }
-                            }
-                            else {
-                                setAudioPosition("Buffering...");
-                            }
-                        },
-                        // error callback
-                        function (e) {
-                            console.log("Error getting pos=" + e);
-                            setAudioPosition("Error: " + e);
-                        }
-                );
-            }, 1000);
+        function clearHighlights(){
+            document.getElementById('hrp').src="images/Play_48x48.png";
+            document.getElementById('hrap').src="images/Play_48x48.png";
+            document.getElementById('hrop').src="images/Play_48x48.png";
         }
+
+
 
 
 
@@ -142,7 +158,7 @@
     <div id="player_wrapper2">
         <img src="text_atmosphere.png" class="title"/>
         <div id="controllers2">
-            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_atmosphere_2012','Halloweenradio Atmosphere');"><img src="images/Play_48x48.png" alt="play"/></a>
+            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_atmosphere_2012','Halloweenradio Atmosphere');"><img src="images/Play_48x48.png" alt="play" id="hrap"/></a>
             <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
         </div>
@@ -151,7 +167,7 @@
     <div id="player_wrapper3">
         <img src="text_oldies.png" class="title"/>
         <div id="controllers3">
-            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_oldies_2012','Halloweenradio Oldies');"><img src="images/Play_48x48.png" alt="play"/></a>
+            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_oldies_2012','Halloweenradio Oldies');"><img src="images/Play_48x48.png" alt="play" id="hrop"/></a>
             <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
         </div>
