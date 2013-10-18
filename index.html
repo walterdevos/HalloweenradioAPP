@@ -25,13 +25,15 @@
         var my_media = null;
         var mediaTimer = null;
         var paused = false;
-        var playtitle = "";
+        var title ='';
+        var playtitle ='';
+
 
         // Play audio
         //
         function playAudio(src,title) {
             // Create Media object from src
-           playtitle = title;
+
             if (my_media == null) {
                            my_media = new Media(src, onSuccess, onError);
             } else {
@@ -45,6 +47,10 @@
             my_media.play();
             paused = false;
             setAudioPosition("Playing " + title);
+            window.title = title;
+            if (title == "Halloweenradio"){
+                document.getElementById('hrp').style.width="100px";
+            }
         }
 
         // Pause audio
@@ -95,6 +101,7 @@
                 my_media.getCurrentPosition(
                         // success callback
                         function (position) {
+                            playtitle = window.title;
                             if (position > 0) {
                                 if( !paused) {
                                     setAudioPosition("Playing " + playtitle);
@@ -126,7 +133,7 @@
     <div id="player_wrapper1">
         <img src="text_hr.png" class="title"/>
         <div id="controllers1">
-            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/Play_48x48.png" alt="play"/></a>
+            <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/Play_48x48.png" alt="play" id="hrp"/></a>
             <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
         </div>
