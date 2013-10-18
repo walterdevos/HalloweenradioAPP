@@ -11,12 +11,24 @@
         // Wait for device API libraries to load
         //
         document.addEventListener("deviceready", onDeviceReady, false);
+        document.addEventListener("startcallbutton", onStartCall, false);
+        document.addEventListener("endcallbutton", onEndCall, false);
 
         // device APIs are available
         //
         function onDeviceReady() {
             playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");
         }
+
+        function onStartCall() {
+            pauseAudio();
+        }
+
+        function onEndCall() {
+            pauseAudio();
+        }
+
+
 
 /*       */
 
@@ -96,7 +108,13 @@
                 my_media.pause();
                 paused = true;
             }
+            if (my_media && paused) {
+                my_media.play();
+            }
+
         }
+
+
 
         // Stop audio
         //
