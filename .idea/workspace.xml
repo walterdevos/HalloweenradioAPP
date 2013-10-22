@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382464668570" ignored="false" />
-    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382467652734" ignored="false" />
+    <file path="/Dummy.txt" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382473453379" ignored="false" />
+    <file path="/index.html" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382475895743" ignored="false" />
     <file path="/style.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382467575376" ignored="false" />
     <file path="/jplayer.blue.monday.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1380910276914" ignored="false" />
-    <file path="/config.xml" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381191474652" ignored="false" />
+    <file path="/config.xml" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382473445094" ignored="false" />
     <file path="I:/#PHP#/HalloweenRadio/index.php" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382462883327" ignored="false" />
     <file path="I:/#PHP#/HalloweenRadio/1test.php" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381006536090" ignored="false" />
     <file path="I:/#PHP#/HalloweenRadio/advertise.php" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1381006566691" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="I:/#PHP#/HalloweenRadio/sitemap.xml" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382462883327" ignored="false" />
     <file path="I:/#PHP#/HalloweenRadio/daystohalloween.php" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382473059601" ignored="false" />
     <file path="/daystohalloween.php" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382473057042" ignored="false" />
-    <file path="I:/#PHP#/HalloweenRadio/css/style_dth.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382472919982" ignored="false" />
+    <file path="I:/#PHP#/HalloweenRadio/css/style_dth.css" changelist="34c9e82e-ce35-4dc5-8699-ace6cd04f718" time="1382473546443" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +46,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="135" selection-start="704" selection-end="704" vertical-scroll-proportion="0.36386138">
+            <state line="150" column="45" selection-start="5014" selection-end="5014" vertical-scroll-proportion="-8.235294">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="9" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+            <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1146789">
               <folding />
             </state>
           </provider>
@@ -103,9 +103,9 @@
         <option value="$PROJECT_DIR$/jplayer.pink.flag.css" />
         <option value="$PROJECT_DIR$/skin/jplayer.blue.monday.css" />
         <option value="$PROJECT_DIR$/skin/jplayer.midnight.black.css" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -589,7 +589,15 @@
       <created>1382464669887</created>
       <updated>1382464669887</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="v1.1">
+      <created>1382473274604</created>
+      <updated>1382473274604</updated>
+    </task>
+    <task id="LOCAL-00079" summary="v1.1">
+      <created>1382473456181</created>
+      <updated>1382473456182</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -763,13 +771,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="9" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneListener.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -786,7 +787,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="135" selection-start="704" selection-end="704" vertical-scroll-proportion="0.36386138">
+        <state line="150" column="45" selection-start="5014" selection-end="5014" vertical-scroll-proportion="-8.235294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1146789">
           <folding />
         </state>
       </provider>
