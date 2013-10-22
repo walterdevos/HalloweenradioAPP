@@ -18,9 +18,14 @@ body{
 }
 
 img.title {
-    width: 50%;
+    width: 70%;
     float:left;
+    margin-left: -40px;
+    margin-right: -40px;
 }
+img.option {
+    width: 100%;
+ }
 
 #player_wrapper1{
      position: absolute;
@@ -44,9 +49,27 @@ img.title {
     text-align: center;
 }
 
+#dth_wrapper{
+    position: absolute;
+    bottom:75px;
+    width:100%;
+
+}
+
+#dth{
+    width:285px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dth iframe {
+
+}
+
 #option_wrapper{
     position: absolute;
-    top :570px;
+    bottom:10px;
     width:100%;
 }
 
@@ -57,9 +80,7 @@ img.title {
 
 
 #controllers1 , #controllers2 , #controllers3 {
-
-    width: 50%;
-
+    display: inline;
 }
 
 #audio_position {

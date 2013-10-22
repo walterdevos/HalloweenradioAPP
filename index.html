@@ -12,6 +12,11 @@
         // Wait for device API libraries to load
         document.addEventListener("deviceready", onDeviceReady, false);
 
+        onload=function(){
+            var el=document.getElementById('dth');
+            el.innerHTML="<iframe src=\"http://www.halloweenradio.net/daystohalloween.php\" frameborder=\"0\" scrolling=\"no\" seamless></iframe>";
+        }
+
         // device APIs are available
         function onDeviceReady() {
             if (!my_media) { playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");}
@@ -185,9 +190,13 @@
         <p id="audio_position"></p>
     </div>
 
+    <div id="dth_wrapper">
+        <div id="dth"></div>
+    </div>
+
     <div id="option_wrapper">
         <div id="options">
-            <a href="#" class="options" onclick="playInBackground();"><img src="pibyes.png" alt="play in background" class="title" id="pib"/></a>
+            <a href="#" class="options" onclick="playInBackground();"><img src="pibyes.png" alt="play in background" class="option" id="pib"/></a>
         </div>
     </div>
 
