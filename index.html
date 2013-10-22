@@ -10,34 +10,18 @@
     <script type="text/javascript" charset="utf-8">
 
         // Wait for device API libraries to load
-        //
         document.addEventListener("deviceready", onDeviceReady, false);
-        //document.addEventListener("pause", onStartCall, false);
-        //document.addEventListener("resume", onEndCall, false);
-
-
 
         // device APIs are available
-        //
         function onDeviceReady() {
             if (!my_media) { playAudio("http://listen.radionomy.com/halloweenradionet","Halloweenradio");}
         }
 
         function onStartCall() {
-            if (my_media) {
-                my_media.pause();
-            }
-        }
-
-        function onEndCall() {
-            if (my_media) {
-                my_media.pause();
-                my_media.play();
-            }
-        }
+            stopAudio();
+         }
 
         // Audio player
-        //
         var my_media = null;
         var mediaTimer = null;
         var paused = false;
@@ -61,7 +45,6 @@
 
 
         // Play audio
-        //
         function playAudio(src,title) {
             // Create Media object from src
 
@@ -121,7 +104,6 @@
         }
 
         // Pause audio
-        //
         function pauseAudio() {
             if (my_media && !paused ) {
                 my_media.pause();
@@ -136,7 +118,6 @@
 
 
         // Stop audio
-        //
         function stopAudio() {
             if (my_media) {
                 my_media.stop();
@@ -150,20 +131,17 @@
         }
 
         // onSuccess Callback
-        //
         function onSuccess() {
             console.log("playAudio():Audio Success");
         }
 
         // onError Callback
-        //
         function onError(error) {
             alert('code: ' + error.code + '\n' +
                     'message: ' + error.message + '\n');
         }
 
         // Set audio position
-        //
         function setAudioPosition(position) {
             document.getElementById('audio_position').innerHTML = position;
         }
@@ -174,13 +152,7 @@
             document.getElementById('hrop').src="images/Play_48x48.png";
         }
 
-
-
-
-
-
-
-    </script>
+</script>
 </head>
 <body>
 <div id="wrapper">
@@ -189,7 +161,6 @@
         <img src="text_hr.png" class="title"/>
         <div id="controllers1">
             <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/Play_48x48.png" alt="play" id="hrp"/></a>
-            <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
         </div>
     </div>
@@ -198,7 +169,6 @@
         <img src="text_atmosphere.png" class="title"/>
         <div id="controllers2">
             <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_atmosphere_2012','Halloweenradio Atmosphere');"><img src="images/Play_48x48.png" alt="play" id="hrap"/></a>
-            <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
         </div>
     </div>
@@ -207,7 +177,6 @@
         <img src="text_oldies.png" class="title"/>
         <div id="controllers3">
             <a href="#" class="btn large" onclick="playAudio('http://listen.radionomy.com/HR_oldies_2012','Halloweenradio Oldies');"><img src="images/Play_48x48.png" alt="play" id="hrop"/></a>
-            <a href="#" class="btn large" onclick="pauseAudio();"><img src="images/Pause_48x48.png" alt="pause"/> </a>
             <a href="#" class="btn large" onclick="stopAudio();"><img src="images/Stop_48x48.png" alt="stop"/></a>
         </div>
     </div>

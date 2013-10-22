@@ -18,7 +18,8 @@ body{
 }
 
 img.title {
-    width: 100%;
+    /*width: 100%;*/
+    float:left;
 }
 
 #player_wrapper1{
@@ -28,17 +29,17 @@ img.title {
  }
 #player_wrapper2{
     position: absolute;
-    top :180px;
+    top :130px;
     width:100%;
 }
 #player_wrapper3{
     position: absolute;
-    top :310px;
+    top :210px;
     width:100%;
 }
 #status_wrapper{
     position: absolute;
-    top :440px;
+    top :290px;
     width:100%;
     text-align: center;
 }
