@@ -62,7 +62,7 @@
                     setTimeout(function(){},9000);
                     my_media.stop();
                     clearHighlights();
-                    my_media = new Media(src, onSuccess, onError);
+                    my_media = new Media(src, onSuccess, onError );
 
                 }
             }
@@ -141,6 +141,10 @@
         // onSuccess Callback
         function onSuccess() {
             console.log("playAudio():Audio Success");
+        }
+
+        function onError() {
+            console.log("playAudio():Error");
         }
 
         // Set audio position
