@@ -33,7 +33,6 @@
         var pib = false;
         var title = '';
         var playtitle = '';
-        var buffering = false;
 
         // Play in background switch
         function playInBackground() {
@@ -54,34 +53,11 @@
         function playAudio(src, title) {
             // Create Media object from src
 
-
-            my_media.getCurrentPosition(
-                    // success callback
-                    function (position) {
-                        if (position == 0) {
-                            buffering = true;
-                        }
-                        else {
-                            buffering = false;
-                        }
-
-
-                    },
-                    // error callback
-                    function (e) {
-                        console.log("Error getting pos=" + e);
-                        setAudioPosition("Error: " + e);
-                    }
-            );
-
-
-            if (my_media == null && !buffering) {
+            if (my_media == null) {
                 my_media = new Media(src, onSuccess, onError);
             } else {
-                if (my_media && !buffering) {
+                if (my_media) {
                     my_media.stop();
-                    clearHighlights();
-                    my_media = new Media(src, onSuccess, onError);
                 }
             }
 
