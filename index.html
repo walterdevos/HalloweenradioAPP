@@ -60,7 +60,7 @@
                     my_media.stop();
                     my_media = null;
                     my_media = new Media(src, onSuccess, onError);
-                    setTimeout(function(){},1000);
+
                 }
             }
 
@@ -142,15 +142,17 @@
 
         // onError Callback
         function onError(error) {
+
+            alert('An error occurred, audio has stopped. (please don\'t interrupt while buffering is in progress)' + '\n');
+            setTimeout(function(){},1000);
             my_media.stop();
             my_media.release();
-            my_media = null;
             clearInterval(mediaTimer);
             mediaTimer = null;
             setAudioPosition("Stopped.");
             clearHighlights();
 
-            alert('An error occurred, audio has stopped. (please don\'t interrupt while buffering is in progress)' + '\n');
+
         }
 
         // Set audio position
