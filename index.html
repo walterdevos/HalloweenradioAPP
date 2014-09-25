@@ -55,11 +55,9 @@
 
             if (my_media == null) {
                 my_media = new Media(src, onSuccess, onError );
-                setTimeout(function(){},9000);
+
             } else {
                 if (my_media) {
-                    my_media.stop();
-                    setTimeout(function(){},9000);
                     my_media.stop();
                     clearHighlights();
                     my_media = new Media(src, onSuccess, onError );
@@ -68,6 +66,7 @@
             }
 
             // Play audio
+            my_media.stop();
             my_media.play();
             paused = false;
             setAudioPosition("Playing " + title);
