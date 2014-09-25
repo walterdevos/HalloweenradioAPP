@@ -6,16 +6,15 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" charset="utf-8" src="PhoneListener.js"></script>
     <script type="text/javascript" charset="utf-8">
 
         // Wait for device API libraries to load
         document.addEventListener("deviceready", onDeviceReady, false);
 
-        onload=function(){
-            var el=document.getElementById('dth');
-            el.innerHTML="<iframe src=\"http://www.halloweenradio.net/app/index.php\" frameborder=\"0\" scrolling=\"no\" seamless></iframe>";
-        }
+        onload = function () {
+            var el = document.getElementById('dth');
+            el.innerHTML = "<iframe src=\"http://www.halloweenradio.net/app/index.php\" frameborder=\"0\" scrolling=\"no\" seamless></iframe>";
+        };
 
         // device APIs are available
         function onDeviceReady() {
