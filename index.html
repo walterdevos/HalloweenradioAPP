@@ -60,11 +60,13 @@
 
                 if (!my_media) {
                     my_media = new Media(src, onSuccess, onError);
+                    status="buffering";
 
                 } else {
                     my_media.stop();
                     clearHighlights();
                     my_media = new Media(src, onSuccess, onError);
+                    status="buffering";
                 }
 
                 // Play audio

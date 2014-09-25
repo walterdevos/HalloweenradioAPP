@@ -30,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="12" selection-start="4865" selection-end="4865" vertical-scroll-proportion="-7.6" vertical-offset="2166" max-vertical-offset="4256">
+            <state line="88" column="41" selection-start="2971" selection-end="2971" vertical-scroll-proportion="-13.616667" vertical-offset="855" max-vertical-offset="4294">
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="50" selection-start="536" selection-end="536" vertical-scroll-proportion="0.3885899" vertical-offset="0" max-vertical-offset="929">
+            <state line="30" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="0.61356294" vertical-offset="0" max-vertical-offset="929">
               <folding />
             </state>
           </provider>
@@ -621,7 +621,11 @@
       <created>1411679953011</created>
       <updated>1411679953011</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="v1.1">
+      <created>1411680179091</created>
+      <updated>1411680179091</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -825,14 +829,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="12" selection-start="4865" selection-end="4865" vertical-scroll-proportion="-7.6" vertical-offset="2166" max-vertical-offset="4256">
+        <state line="88" column="41" selection-start="2971" selection-end="2971" vertical-scroll-proportion="-13.616667" vertical-offset="855" max-vertical-offset="4294">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="536" selection-end="536" vertical-scroll-proportion="0.3885899" vertical-offset="0" max-vertical-offset="929">
+        <state line="30" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="0.61356294" vertical-offset="0" max-vertical-offset="929">
           <folding />
         </state>
       </provider>
