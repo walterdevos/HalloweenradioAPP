@@ -54,62 +54,65 @@
         function playAudio(src, title) {
             // Create Media object from src
 
-            if (status == "buffering") {return null;}
+            if (status == "buffering") {
+            }
+            else {
 
-            if (!my_media) {
-                my_media = new Media(src, onSuccess, onError);
+                if (!my_media) {
+                    my_media = new Media(src, onSuccess, onError);
 
-            } else {
+                } else {
+                    my_media.stop();
+                    clearHighlights();
+                    my_media = new Media(src, onSuccess, onError);
+                }
+
+                // Play audio
                 my_media.stop();
-                clearHighlights();
-                my_media = new Media(src, onSuccess, onError);
-            }
+                my_media.play();
+                paused = false;
+                setAudioPosition("Playing " + title);
+                window.title = title;
+                if (title == "Halloweenradio") {
+                    document.getElementById('hrp').src = "images/Play2_48x48.png";
+                }
+                if (title == "Halloweenradio Atmosphere") {
+                    document.getElementById('hrap').src = "images/Play2_48x48.png";
+                }
+                if (title == "Halloweenradio Oldies") {
+                    document.getElementById('hrop').src = "images/Play2_48x48.png";
+                }
 
-            // Play audio
-            my_media.stop();
-            my_media.play();
-            paused = false;
-            setAudioPosition("Playing " + title);
-            window.title = title;
-            if (title == "Halloweenradio") {
-                document.getElementById('hrp').src = "images/Play2_48x48.png";
-            }
-            if (title == "Halloweenradio Atmosphere") {
-                document.getElementById('hrap').src = "images/Play2_48x48.png";
-            }
-            if (title == "Halloweenradio Oldies") {
-                document.getElementById('hrop').src = "images/Play2_48x48.png";
-            }
-
-            // Update my_media position every second
-            if (mediaTimer == null) {
-                mediaTimer = setInterval(function () {
-                    // get my_media position
-                    my_media.getCurrentPosition(
-                            // success callback
-                            function (position) {
-                                playtitle = window.title;
-                                if (position > 0) {
-                                    status = 'playing';
-                                    if (!paused) {
-                                        setAudioPosition("Playing " + playtitle);
+                // Update my_media position every second
+                if (mediaTimer == null) {
+                    mediaTimer = setInterval(function () {
+                        // get my_media position
+                        my_media.getCurrentPosition(
+                                // success callback
+                                function (position) {
+                                    playtitle = window.title;
+                                    if (position > 0) {
+                                        status = 'playing';
+                                        if (!paused) {
+                                            setAudioPosition("Playing " + playtitle);
+                                        }
+                                        else {
+                                            setAudioPosition("Paused " + playtitle);
+                                        }
                                     }
                                     else {
-                                        setAudioPosition("Paused " + playtitle);
+                                        setAudioPosition("Buffering...");
+                                        status = 'buffering';
                                     }
+                                },
+                                // error callback
+                                function (e) {
+                                    console.log("Error getting pos=" + e);
+                                    setAudioPosition("Error: " + e);
                                 }
-                                else {
-                                    setAudioPosition("Buffering...");
-                                    status = 'buffering';
-                                }
-                            },
-                            // error callback
-                            function (e) {
-                                console.log("Error getting pos=" + e);
-                                setAudioPosition("Error: " + e);
-                            }
-                    );
-                }, 1000);
+                        );
+                    }, 1000);
+                }
             }
         }
 
