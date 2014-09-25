@@ -55,14 +55,13 @@
 
             if (my_media == null) {
                 my_media = new Media(src, onSuccess, onError );
+                setTimeout(function(){},9000);
             } else {
                 if (my_media) {
                     my_media.stop();
-                    my_media = null;
-                    my_media = new Media(src, onSuccess, onError);
                     clearHighlights();
-
-
+                    my_media = new Media(src, onSuccess, onError);
+                    setTimeout(function(){},9000);
                 }
             }
 
@@ -148,7 +147,6 @@
             alert('An error occurred, audio has stopped. (please don\'t interrupt while buffering is in progress)' + '\n');
             setTimeout(function(){},1000);
             my_media.stop();
-            my_media.release();
             clearInterval(mediaTimer);
             mediaTimer = null;
             setAudioPosition("Stopped.");
