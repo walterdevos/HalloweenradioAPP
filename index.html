@@ -60,6 +60,8 @@
                     my_media.stop();
                     my_media = null;
                     my_media = new Media(src, onSuccess, onError);
+                    clearHighlights();
+
 
                 }
             }
