@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="39" selection-start="3405" selection-end="3405" vertical-scroll-proportion="1.9240507" vertical-offset="0" max-vertical-offset="4712">
+            <state line="89" column="27" selection-start="2785" selection-end="2785" vertical-scroll-proportion="0.69965476" vertical-offset="1083" max-vertical-offset="4712">
               <folding />
             </state>
           </provider>
@@ -39,7 +39,9 @@
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-              <folding />
+              <folding>
+                <marker date="1411672584859" expanded="true" signature="649:745" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -556,7 +558,11 @@
       <created>1411672587423</created>
       <updated>1411672587423</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="v1.1">
+      <created>1411674524006</created>
+      <updated>1411674524006</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -616,7 +622,9 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="9" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="646">
-          <folding />
+          <folding>
+            <marker date="1411672584859" expanded="true" signature="649:745" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +652,9 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="646">
-          <folding />
+          <folding>
+            <marker date="1411672584859" expanded="true" signature="649:745" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,7 +696,9 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <marker date="1411672584859" expanded="true" signature="649:745" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -707,7 +719,9 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <marker date="1411672584859" expanded="true" signature="649:745" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +742,9 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <marker date="1411672584859" expanded="true" signature="649:745" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,13 +777,15 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <folding />
+          <folding>
+            <marker date="1411672584859" expanded="true" signature="649:745" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="39" selection-start="3405" selection-end="3405" vertical-scroll-proportion="1.9240507" vertical-offset="0" max-vertical-offset="4712">
+        <state line="89" column="27" selection-start="2785" selection-end="2785" vertical-scroll-proportion="0.69965476" vertical-offset="1083" max-vertical-offset="4712">
           <folding />
         </state>
       </provider>

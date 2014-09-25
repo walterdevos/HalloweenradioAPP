@@ -33,6 +33,7 @@
         var pib = false;
         var title = '';
         var playtitle = '';
+        var buffering = false;
 
         // Play in background switch
         function playInBackground() {
@@ -57,56 +58,13 @@
             my_media.getCurrentPosition(
                     // success callback
                     function (position) {
-                        if (position > 0) {
-
+                        if (position == 0) {
+                            buffering = true;
                         }
                         else {
-                            my_media = new Media(src, onSuccess, onError);
-
-                            // Play audio
-                            my_media.play();
-                            paused = false;
-                            setAudioPosition("Playing " + title);
-                            window.title = title;
-                            if (title == "Halloweenradio") {
-                                document.getElementById('hrp').src = "images/Play2_48x48.png";
-                            }
-                            if (title == "Halloweenradio Atmosphere") {
-                                document.getElementById('hrap').src = "images/Play2_48x48.png";
-                            }
-                            if (title == "Halloweenradio Oldies") {
-                                document.getElementById('hrop').src = "images/Play2_48x48.png";
-                            }
-
-                            // Update my_media position every second
-                            if (mediaTimer == null) {
-                                mediaTimer = setInterval(function () {
-                                    // get my_media position
-                                    my_media.getCurrentPosition(
-                                            // success callback
-                                            function (position) {
-                                                playtitle = window.title;
-                                                if (position > 0) {
-                                                    if (!paused) {
-                                                        setAudioPosition("Playing " + playtitle);
-                                                    }
-                                                    else {
-                                                        setAudioPosition("Paused " + playtitle);
-                                                    }
-                                                }
-                                                else {
-                                                    setAudioPosition("Buffering...");
-                                                }
-                                            },
-                                            // error callback
-                                            function (e) {
-                                                console.log("Error getting pos=" + e);
-                                                setAudioPosition("Error: " + e);
-                                            }
-                                    );
-                                }, 1000);
-                            }
+                            buffering = false;
                         }
+
 
                     },
                     // error callback
@@ -117,17 +75,59 @@
             );
 
 
-            /*if (my_media == null) {
-             my_media = new Media(src, onSuccess, onError);
-             } else {
-             if (my_media) {
-             my_media.stop();
-             clearHighlights();
-             my_media = new Media(src, onSuccess, onError);
-             }
-             }*/
+            if (my_media == null && !buffering) {
+                my_media = new Media(src, onSuccess, onError);
+            } else {
+                if (my_media && !buffering) {
+                    my_media.stop();
+                    clearHighlights();
+                    my_media = new Media(src, onSuccess, onError);
+                }
+            }
 
+            // Play audio
+            my_media.play();
+            paused = false;
+            setAudioPosition("Playing " + title);
+            window.title = title;
+            if (title == "Halloweenradio") {
+                document.getElementById('hrp').src = "images/Play2_48x48.png";
+            }
+            if (title == "Halloweenradio Atmosphere") {
+                document.getElementById('hrap').src = "images/Play2_48x48.png";
+            }
+            if (title == "Halloweenradio Oldies") {
+                document.getElementById('hrop').src = "images/Play2_48x48.png";
+            }
 
+            // Update my_media position every second
+            if (mediaTimer == null) {
+                mediaTimer = setInterval(function () {
+                    // get my_media position
+                    my_media.getCurrentPosition(
+                            // success callback
+                            function (position) {
+                                playtitle = window.title;
+                                if (position > 0) {
+                                    if (!paused) {
+                                        setAudioPosition("Playing " + playtitle);
+                                    }
+                                    else {
+                                        setAudioPosition("Paused " + playtitle);
+                                    }
+                                }
+                                else {
+                                    setAudioPosition("Buffering...");
+                                }
+                            },
+                            // error callback
+                            function (e) {
+                                console.log("Error getting pos=" + e);
+                                setAudioPosition("Error: " + e);
+                            }
+                    );
+                }, 1000);
+            }
         }
 
         // Pause audio
