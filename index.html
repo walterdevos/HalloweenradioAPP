@@ -59,9 +59,11 @@
             } else {
                 if (my_media) {
                     my_media.stop();
+                    setTimeout(function(){},9000);
+                    my_media.stop();
                     clearHighlights();
                     my_media = new Media(src, onSuccess, onError);
-                    setTimeout(function(){},9000);
+
                 }
             }
 
@@ -139,20 +141,6 @@
         // onSuccess Callback
         function onSuccess() {
             console.log("playAudio():Audio Success");
-        }
-
-        // onError Callback
-        function onError(error) {
-
-            alert('An error occurred, audio has stopped. (please don\'t interrupt while buffering is in progress)' + '\n');
-            setTimeout(function(){},1000);
-            my_media.stop();
-            clearInterval(mediaTimer);
-            mediaTimer = null;
-            setAudioPosition("Stopped.");
-            clearHighlights();
-
-
         }
 
         // Set audio position
