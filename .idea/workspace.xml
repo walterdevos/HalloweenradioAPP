@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="">
+    <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="v1.1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index_.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="41" selection-start="2971" selection-end="2971" vertical-scroll-proportion="-13.616667" vertical-offset="855" max-vertical-offset="4294">
+            <state line="28" column="28" selection-start="953" selection-end="953" vertical-scroll-proportion="48.85" vertical-offset="3463" max-vertical-offset="4332">
               <folding />
             </state>
           </provider>
@@ -39,7 +40,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="0.61356294" vertical-offset="0" max-vertical-offset="929">
+            <state line="12" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.2454252" vertical-offset="0" max-vertical-offset="929">
               <folding />
             </state>
           </provider>
@@ -85,6 +86,7 @@
         <option value="$PROJECT_DIR$/skin/jplayer.blue.monday.css" />
         <option value="$PROJECT_DIR$/skin/jplayer.midnight.black.css" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/hrplayer.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/config.xml" />
       </list>
@@ -94,6 +96,28 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1055" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -167,7 +191,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="257" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="I:/#PHP#/HalloweenRadio" />
@@ -187,6 +211,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="I:\#HTML5\HalloweenradioAPP" />
       <recent name="I:\#HTML5\HalloweenradioAPP\images" />
       <recent name="I:\#HTML5\HalloweenradioAPP\js" />
@@ -625,7 +650,11 @@
       <created>1411680179091</created>
       <updated>1411680179091</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="v1.1">
+      <created>1411680402376</created>
+      <updated>1411680402376</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -829,14 +858,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="41" selection-start="2971" selection-end="2971" vertical-scroll-proportion="-13.616667" vertical-offset="855" max-vertical-offset="4294">
+        <state line="28" column="28" selection-start="953" selection-end="953" vertical-scroll-proportion="48.85" vertical-offset="3463" max-vertical-offset="4332">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="0.61356294" vertical-offset="0" max-vertical-offset="929">
+        <state line="12" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.2454252" vertical-offset="0" max-vertical-offset="929">
           <folding />
         </state>
       </provider>

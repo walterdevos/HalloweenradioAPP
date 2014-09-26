@@ -12,7 +12,7 @@
 
         onload = function () {
             var el = document.getElementById('dth');
-            el.innerHTML = "<iframe src=\"http://www.halloweenradio.net/app" frameborder =\"0\" scrolling=\"no\" seamless></iframe>";
+            el.innerHTML = "<iframe src=\"http://www.halloweenradio.net/app/index.php\" frameborder=\"0\" scrolling=\"no\" seamless></iframe>";
         };
 
         // device APIs are available
@@ -52,45 +52,27 @@
 
         // Play audio
         function playAudio(src, title) {
+            // Create Media object from src
 
-            // Player must not start if stream is buffering.
             if (status == "buffering") {
-
-                // Check player position, if >0 or -1 means player is done buffering.
-                my_media.getCurrentPosition(
-                        // success callback
-                        function (position) {
-                            if (position > 0) {
-                                status = 'playing';
-                            } else if (position == -1) {
-                                status = 'stopped';
-                            }
-
-                        },
-                        // error callback
-                        function (e) {
-                            console.log("Error getting pos=" + e);
-                            setAudioPosition("Error: " + e);
-                        }
-                );
             }
             else {
 
-                // Initiate Media object
                 if (!my_media) {
                     my_media = new Media(src, onSuccess, onError);
-                    status = "buffering";
+                    status="buffering";
 
                 } else {
                     my_media.stop();
                     clearHighlights();
                     my_media = new Media(src, onSuccess, onError);
-                    status = "buffering";
+                    status="buffering";
                 }
 
                 // Play audio
                 my_media.stop();
                 my_media.play();
+                paused = false;
                 setAudioPosition("Playing " + title);
                 window.title = title;
                 if (title == "Halloweenradio") {
@@ -113,7 +95,12 @@
                                     playtitle = window.title;
                                     if (position > 0) {
                                         status = 'playing';
-                                        setAudioPosition("Playing " + playtitle);
+                                        if (!paused) {
+                                            setAudioPosition("Playing " + playtitle);
+                                        }
+                                        else {
+                                            setAudioPosition("Paused " + playtitle);
+                                        }
                                     }
                                     else {
                                         setAudioPosition("Buffering...");
@@ -131,18 +118,29 @@
             }
         }
 
+        // Pause audio
+        function pauseAudio() {
+            if (my_media && !paused) {
+                my_media.pause();
+                paused = true;
+            } else if (my_media && paused) {
+                my_media.play();
+                paused = false;
+            }
+
+        }
+
 
         // Stop audio
         function stopAudio() {
             if (my_media) {
                 my_media.stop();
-                status = 'stopped';
             }
-
             clearInterval(mediaTimer);
             mediaTimer = null;
             setAudioPosition("Stopped.");
             clearHighlights();
+
         }
 
         // onSuccess Callback
