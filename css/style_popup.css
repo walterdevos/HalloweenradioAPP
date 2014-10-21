@@ -1,0 +1,28 @@
+body {
+	margin:0px;
+	padding:0px;
+	background: url("../images/layout/popup_head.png") top center;
+	background-repeat: no-repeat;
+    background-color: #001228;
+    font-family: Arial, sans-serif;
+
+}
+
+.nowonair {
+	font-size:13px;
+	color:#ffffff;
+}
+
+#amplitude-play-pause{
+    width: 167px;
+    height: 100px;
+    cursor: pointer;
+}
+.amplitude-paused{
+    background-image: url('../images/layout/player_play.png');
+    background-repeat: no-repeat;
+}
+.amplitude-playing{
+    background-image: url('../images/layout/player_pause.png');
+    background-repeat: no-repeat;
+}
