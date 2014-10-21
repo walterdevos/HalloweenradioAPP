@@ -48,102 +48,49 @@
         var playtitle = '';
         var status = '';
 
-        // Play in background switch
-        function playInBackground() {
-            if (pib) {
-                document.removeEventListener("pause", onStartCall);
-                pib = false;
-                document.getElementById('pib').src = "pibyes.png";
-
-            } else {
-                document.addEventListener("pause", onStartCall, false);
-                pib = true;
-                document.getElementById('pib').src = "pibno.png";
-            }
-        }
-
-
         // Play audio
         function playAudio(src, title) {
 
-            // Player must not start if stream is buffering.
-            if (status == "buffering") {
 
-                // Check player position, if >0 or -1 means player is done buffering.
-                if (my_media) {
-                    my_media.getCurrentPosition(
-                            // success callback
-                            function (position) {
-                                if (position > 0) {
-                                    status = 'playing';
-                                } else if (position == -1) {
-                                    status = 'stopped';
-                                }
 
-                            },
-                            // error callback
-                            function (e) {
-                                console.log("Error getting pos=" + e);
-                                setAudioPosition("Error: " + e);
+            // Check status
+            if (my_media) {
+                my_media.getCurrentPosition(
+                        // success callback
+                        function (position) {
+                            if (position > 0) {
+                                status = 'playing';
+                            } else if (position == -1) {
+                                status = 'stopped';
                             }
-                    );
-                }
+
+                        },
+                        // error callback
+                        function (e) {
+                            console.log("Error getting pos=" + e);
+                        }
+                );
             }
-            else {
 
-                // Initiate Media object
-                if (!my_media) {
-                    my_media = new Media(src, onSuccess, onError);
-                    status = "buffering";
+            if (status == "playing") {
+                stopAudio();
+            }
 
-                } else {
-                    my_media.stop();
-                    clearHighlights();
-                    my_media = new Media(src, onSuccess, onError);
-                    status = "buffering";
-                }
+            // Initiate Media object
+            if (!my_media) {
+                my_media = new Media(src, onSuccess, onError);
+                status = "buffering";
 
-                // Play audio
+            } else {
                 my_media.stop();
-                my_media.play();
-                setAudioPosition("Playing " + title);
-                window.title = title;
-                if (title == "Halloweenradio") {
-                    document.getElementById('hrp').src = "images/Play2_48x48.png";
-                }
-                if (title == "Halloweenradio Atmosphere") {
-                    document.getElementById('hrap').src = "images/Play2_48x48.png";
-                }
-                if (title == "Halloweenradio Oldies") {
-                    document.getElementById('hrop').src = "images/Play2_48x48.png";
-                }
-
-                // Update my_media position every second
-                if (mediaTimer == null) {
-                    mediaTimer = setInterval(function () {
-                        // get my_media position
-                        my_media.getCurrentPosition(
-                                // success callback
-                                function (position) {
-                                    playtitle = window.title;
-                                    if (position > 0) {
-                                        status = 'playing';
-                                        setAudioPosition("Playing " + playtitle);
-                                    }
-                                    else {
-                                        setAudioPosition("Buffering...");
-                                        status = 'buffering';
-                                    }
-                                },
-                                // error callback
-                                function (e) {
-                                    console.log("Error getting pos=" + e);
-                                    setAudioPosition("Error: " + e);
-                                }
-                        );
-                    }, 1000);
-                }
+                my_media = null;
+                my_media = new Media(src, onSuccess, onError);
             }
+
+            // Play audio
+            my_media.stop();
+            my_media.play();
+
         }
 
 
@@ -156,30 +103,18 @@
 
             clearInterval(mediaTimer);
             mediaTimer = null;
-            setAudioPosition("Stopped.");
-            clearHighlights();
         }
 
         // onSuccess Callback
         function onSuccess() {
             console.log("playAudio():Audio Success");
-            status ='ok';
+            status = 'ok';
         }
 
         function onError() {
             console.log("playAudio():Error");
         }
 
-        // Set audio position
-        function setAudioPosition(position) {
-            document.getElementById('audio_position').innerHTML = position;
-        }
-
-        function clearHighlights() {
-            document.getElementById('hrp').src = "images/Play_48x48.png";
-            document.getElementById('hrap').src = "images/Play_48x48.png";
-            document.getElementById('hrop').src = "images/Play_48x48.png";
-        }
 
     </script>
 
@@ -228,7 +163,8 @@
                                 style="background: url('images/layout/popup_player_main.png') no-repeat center top;">
                             <div id="player">
                                 <div id="player-top">
-                                    <div id="amplitude-play-pause" class="amplitude-paused" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"></div>
+                                    <div id="amplitude-play-pause" class="amplitude-paused"
+                                         onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"></div>
                                 </div>
                             </div>
                         </div>
