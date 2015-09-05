@@ -3,7 +3,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.halloweenradio"
-        version   = "1.4.1">
+        version   = "1.4.1a">
     
     <preference name="phonegap-version" value="3.7.0" />
     <name>Halloween radio</name>
