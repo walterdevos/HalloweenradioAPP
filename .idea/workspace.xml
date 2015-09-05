@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HalloweenradioAPP.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,19 +18,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="HalloweenradioAPP" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="28" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.5135135" vertical-offset="969" max-vertical-offset="4484">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,27 +38,27 @@
                 <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+                <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amplitude.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="amplitude.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/amplitude.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="16070" max-vertical-offset="16986">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index__20141021.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index__20141021.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index__20141021.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="235" selection-end="6044" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="4408">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
                 <marker date="1411732315000" expanded="false" signature="573:602" placeholder="..." />
               </folding>
@@ -67,64 +66,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="0" selection-end="5059" vertical-scroll-proportion="-17.642857" vertical-offset="0" max-vertical-offset="2584">
-              <folding>
-                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index_.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4294">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_popup.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style_popup.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style_popup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="1" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="684">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhoneListener.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PhoneListener.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneListener.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1767">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -145,24 +141,18 @@
       <MyDateState />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/jplayer.pink.flag.css" />
-        <option value="$PROJECT_DIR$/skin/jplayer.blue.monday.css" />
-        <option value="$PROJECT_DIR$/skin/jplayer.midnight.black.css" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/hrplayer.php" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1907" />
-    <option name="height" value="1055" />
+    <option name="x" value="-1" />
+    <option name="width" value="1602" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -200,7 +190,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -212,6 +202,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,7 +284,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,6 +312,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -336,7 +330,120 @@
       <recent name="I:\#HTML5\HalloweenradioAPP\images" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/config.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -344,472 +451,343 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34c9e82e-ce35-4dc5-8699-ace6cd04f718" name="Default" comment="" />
       <created>1380901858949</created>
+      <option name="number" value="Default" />
       <updated>1380901858949</updated>
-    </task>
-    <task id="LOCAL-00001" summary="message">
-      <created>1380901972332</created>
-      <updated>1380901972332</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test1">
-      <created>1380903161936</created>
-      <updated>1380903161936</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test1">
-      <created>1380905447454</created>
-      <updated>1380905447454</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test1">
-      <created>1380905898845</created>
-      <updated>1380905898845</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test1">
-      <created>1380908232067</created>
-      <updated>1380908232067</updated>
-    </task>
-    <task id="LOCAL-00006" summary="test1">
-      <created>1380910712891</created>
-      <updated>1380910712891</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test1">
-      <created>1380910990815</created>
-      <updated>1380910990815</updated>
-    </task>
-    <task id="LOCAL-00008" summary="test1">
-      <created>1380910998307</created>
-      <updated>1380910998307</updated>
-    </task>
-    <task id="LOCAL-00009" summary="test1">
-      <created>1380911010070</created>
-      <updated>1380911010070</updated>
-    </task>
-    <task id="LOCAL-00010" summary="test1">
-      <created>1380921505397</created>
-      <updated>1380921505397</updated>
-    </task>
-    <task id="LOCAL-00011" summary="test1">
-      <created>1380922014184</created>
-      <updated>1380922014184</updated>
-    </task>
-    <task id="LOCAL-00012" summary="test1">
-      <created>1380962457524</created>
-      <updated>1380962457524</updated>
-    </task>
-    <task id="LOCAL-00013" summary="test1">
-      <created>1380963166688</created>
-      <updated>1380963166688</updated>
-    </task>
-    <task id="LOCAL-00014" summary="test1">
-      <created>1380963958877</created>
-      <updated>1380963958877</updated>
-    </task>
-    <task id="LOCAL-00015" summary="test1">
-      <created>1380964149076</created>
-      <updated>1380964149076</updated>
-    </task>
-    <task id="LOCAL-00016" summary="test1">
-      <created>1380964264193</created>
-      <updated>1380964264194</updated>
-    </task>
-    <task id="LOCAL-00017" summary="test1">
-      <created>1380964421708</created>
-      <updated>1380964421708</updated>
-    </task>
-    <task id="LOCAL-00018" summary="test1">
-      <created>1380965240535</created>
-      <updated>1380965240535</updated>
-    </task>
-    <task id="LOCAL-00019" summary="test1">
-      <created>1380965554842</created>
-      <updated>1380965554842</updated>
-    </task>
-    <task id="LOCAL-00020" summary="test1">
-      <created>1380965963314</created>
-      <updated>1380965963314</updated>
-    </task>
-    <task id="LOCAL-00021" summary="test1">
-      <created>1380966094988</created>
-      <updated>1380966094988</updated>
-    </task>
-    <task id="LOCAL-00022" summary="test1">
-      <created>1380966269659</created>
-      <updated>1380966269659</updated>
-    </task>
-    <task id="LOCAL-00023" summary="v1.1">
-      <created>1381165722766</created>
-      <updated>1381165722766</updated>
-    </task>
-    <task id="LOCAL-00024" summary="v1.1">
-      <created>1381166459196</created>
-      <updated>1381166459196</updated>
-    </task>
-    <task id="LOCAL-00025" summary="v1.1">
-      <created>1381167564440</created>
-      <updated>1381167564440</updated>
-    </task>
-    <task id="LOCAL-00026" summary="v1.1">
-      <created>1381167855246</created>
-      <updated>1381167855246</updated>
-    </task>
-    <task id="LOCAL-00027" summary="v1.1">
-      <created>1381167886640</created>
-      <updated>1381167886640</updated>
-    </task>
-    <task id="LOCAL-00028" summary="v1.1">
-      <created>1381168065180</created>
-      <updated>1381168065180</updated>
-    </task>
-    <task id="LOCAL-00029" summary="v1.1">
-      <created>1381168217695</created>
-      <updated>1381168217695</updated>
-    </task>
-    <task id="LOCAL-00030" summary="v1.1">
-      <created>1381168498956</created>
-      <updated>1381168498956</updated>
-    </task>
-    <task id="LOCAL-00031" summary="v1.1">
-      <created>1381169982356</created>
-      <updated>1381169982356</updated>
-    </task>
-    <task id="LOCAL-00032" summary="v1.1">
-      <created>1381170824052</created>
-      <updated>1381170824052</updated>
-    </task>
-    <task id="LOCAL-00033" summary="v1.1">
-      <created>1381171464130</created>
-      <updated>1381171464130</updated>
-    </task>
-    <task id="LOCAL-00034" summary="v1.1">
-      <created>1381186289394</created>
-      <updated>1381186289394</updated>
-    </task>
-    <task id="LOCAL-00035" summary="v1.1">
-      <created>1381186869636</created>
-      <updated>1381186869636</updated>
-    </task>
-    <task id="LOCAL-00036" summary="v1.1">
-      <created>1381186961155</created>
-      <updated>1381186961155</updated>
-    </task>
-    <task id="LOCAL-00037" summary="v1.1">
-      <created>1381187106167</created>
-      <updated>1381187106167</updated>
-    </task>
-    <task id="LOCAL-00038" summary="v1.1">
-      <created>1381187113321</created>
-      <updated>1381187113321</updated>
-    </task>
-    <task id="LOCAL-00039" summary="v1.1">
-      <created>1381187370614</created>
-      <updated>1381187370614</updated>
-    </task>
-    <task id="LOCAL-00040" summary="v1.1">
-      <created>1381187657173</created>
-      <updated>1381187657173</updated>
-    </task>
-    <task id="LOCAL-00041" summary="v1.1">
-      <created>1381189292684</created>
-      <updated>1381189292684</updated>
-    </task>
-    <task id="LOCAL-00042" summary="v1.1">
-      <created>1381190071494</created>
-      <updated>1381190071494</updated>
-    </task>
-    <task id="LOCAL-00043" summary="v1.1">
-      <created>1381190785431</created>
-      <updated>1381190785431</updated>
-    </task>
-    <task id="LOCAL-00044" summary="v1.1">
-      <created>1381191338511</created>
-      <updated>1381191338511</updated>
-    </task>
-    <task id="LOCAL-00045" summary="v1.1">
-      <created>1381191387550</created>
-      <updated>1381191387550</updated>
-    </task>
-    <task id="LOCAL-00046" summary="v1.1">
-      <created>1381191484025</created>
-      <updated>1381191484025</updated>
-    </task>
-    <task id="LOCAL-00047" summary="v1.1">
-      <created>1382093737027</created>
-      <updated>1382093737027</updated>
-    </task>
-    <task id="LOCAL-00048" summary="v1.1">
-      <created>1382094477523</created>
-      <updated>1382094477523</updated>
-    </task>
-    <task id="LOCAL-00049" summary="v1.1">
-      <created>1382095419661</created>
-      <updated>1382095419661</updated>
-    </task>
-    <task id="LOCAL-00050" summary="v1.1">
-      <created>1382097429995</created>
-      <updated>1382097429995</updated>
-    </task>
-    <task id="LOCAL-00051" summary="v1.1">
-      <created>1382097742494</created>
-      <updated>1382097742494</updated>
-    </task>
-    <task id="LOCAL-00052" summary="v1.1">
-      <created>1382098125637</created>
-      <updated>1382098125638</updated>
-    </task>
-    <task id="LOCAL-00053" summary="v1.1">
-      <created>1382098916064</created>
-      <updated>1382098916065</updated>
-    </task>
-    <task id="LOCAL-00054" summary="v1.1">
-      <created>1382099414934</created>
-      <updated>1382099414934</updated>
-    </task>
-    <task id="LOCAL-00055" summary="v1.1">
-      <created>1382099588158</created>
-      <updated>1382099588158</updated>
-    </task>
-    <task id="LOCAL-00056" summary="v1.1">
-      <created>1382100283806</created>
-      <updated>1382100283806</updated>
-    </task>
-    <task id="LOCAL-00057" summary="v1.1">
-      <created>1382100384170</created>
-      <updated>1382100384170</updated>
     </task>
     <task id="LOCAL-00058" summary="v1.1">
       <created>1382100694813</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
       <updated>1382100694813</updated>
     </task>
     <task id="LOCAL-00059" summary="v1.1">
       <created>1382101522601</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
       <updated>1382101522601</updated>
     </task>
     <task id="LOCAL-00060" summary="v1.1">
       <created>1382102334409</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
       <updated>1382102334409</updated>
     </task>
     <task id="LOCAL-00061" summary="v1.1">
       <created>1382104883363</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
       <updated>1382104883363</updated>
     </task>
     <task id="LOCAL-00062" summary="v1.1">
       <created>1382105091457</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
       <updated>1382105091457</updated>
     </task>
     <task id="LOCAL-00063" summary="v1.1">
       <created>1382105195812</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
       <updated>1382105195812</updated>
     </task>
     <task id="LOCAL-00064" summary="v1.1">
       <created>1382105396017</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
       <updated>1382105396017</updated>
     </task>
     <task id="LOCAL-00065" summary="v1.1">
       <created>1382105739873</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
       <updated>1382105739873</updated>
     </task>
     <task id="LOCAL-00066" summary="v1.1">
       <created>1382106844299</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
       <updated>1382106844299</updated>
     </task>
     <task id="LOCAL-00067" summary="v1.1">
       <created>1382112686481</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
       <updated>1382112686482</updated>
     </task>
     <task id="LOCAL-00068" summary="v1.1">
       <created>1382113345225</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
       <updated>1382113345225</updated>
     </task>
     <task id="LOCAL-00069" summary="v1.1">
       <created>1382117450493</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
       <updated>1382117450493</updated>
     </task>
     <task id="LOCAL-00070" summary="v1.1">
       <created>1382121369738</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
       <updated>1382121369738</updated>
     </task>
     <task id="LOCAL-00071" summary="v1.1">
       <created>1382121576103</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
       <updated>1382121576103</updated>
     </task>
     <task id="LOCAL-00072" summary="v1.1">
       <created>1382121920351</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
       <updated>1382121920351</updated>
     </task>
     <task id="LOCAL-00073" summary="v1.1">
       <created>1382122332630</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
       <updated>1382122332631</updated>
     </task>
     <task id="LOCAL-00074" summary="v1.1">
       <created>1382122645771</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
       <updated>1382122645771</updated>
     </task>
     <task id="LOCAL-00075" summary="v1.1">
       <created>1382123002713</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
       <updated>1382123002713</updated>
     </task>
     <task id="LOCAL-00076" summary="v1.1">
       <created>1382464408857</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
       <updated>1382464408857</updated>
     </task>
     <task id="LOCAL-00077" summary="v1.1">
       <created>1382464669887</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
       <updated>1382464669887</updated>
     </task>
     <task id="LOCAL-00078" summary="v1.1">
       <created>1382473274604</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
       <updated>1382473274604</updated>
     </task>
     <task id="LOCAL-00079" summary="v1.1">
       <created>1382473456181</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
       <updated>1382473456182</updated>
     </task>
     <task id="LOCAL-00080" summary="v1.1">
       <created>1411585186202</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
       <updated>1411585186203</updated>
     </task>
     <task id="LOCAL-00081" summary="v1.1">
       <created>1411585279694</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
       <updated>1411585279695</updated>
     </task>
     <task id="LOCAL-00082" summary="v1.1">
       <created>1411671248606</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
       <updated>1411671248606</updated>
     </task>
     <task id="LOCAL-00083" summary="v1.1">
       <created>1411672115211</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
       <updated>1411672115211</updated>
     </task>
     <task id="LOCAL-00084" summary="v1.1">
       <created>1411672587423</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
       <updated>1411672587423</updated>
     </task>
     <task id="LOCAL-00085" summary="v1.1">
       <created>1411674524006</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
       <updated>1411674524006</updated>
     </task>
     <task id="LOCAL-00086" summary="v1.1">
       <created>1411675450791</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
       <updated>1411675450791</updated>
     </task>
     <task id="LOCAL-00087" summary="v1.1">
       <created>1411675470515</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
       <updated>1411675470515</updated>
     </task>
     <task id="LOCAL-00088" summary="v1.1">
       <created>1411675687164</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
       <updated>1411675687164</updated>
     </task>
     <task id="LOCAL-00089" summary="v1.1">
       <created>1411676814208</created>
+      <option name="number" value="00089" />
+      <option name="project" value="LOCAL" />
       <updated>1411676814208</updated>
     </task>
     <task id="LOCAL-00090" summary="v1.1">
       <created>1411676832441</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
       <updated>1411676832441</updated>
     </task>
     <task id="LOCAL-00091" summary="v1.1">
       <created>1411677103678</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
       <updated>1411677103678</updated>
     </task>
     <task id="LOCAL-00092" summary="v1.1">
       <created>1411677121514</created>
+      <option name="number" value="00092" />
+      <option name="project" value="LOCAL" />
       <updated>1411677121514</updated>
     </task>
     <task id="LOCAL-00093" summary="v1.1">
       <created>1411677161779</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
       <updated>1411677161779</updated>
     </task>
     <task id="LOCAL-00094" summary="v1.1">
       <created>1411677519061</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
       <updated>1411677519061</updated>
     </task>
     <task id="LOCAL-00095" summary="v1.1">
       <created>1411678068193</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
       <updated>1411678068194</updated>
     </task>
     <task id="LOCAL-00096" summary="v1.1">
       <created>1411678425851</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
       <updated>1411678425851</updated>
     </task>
     <task id="LOCAL-00097" summary="v1.1">
       <created>1411678769882</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
       <updated>1411678769882</updated>
     </task>
     <task id="LOCAL-00098" summary="v1.1">
       <created>1411678808520</created>
+      <option name="number" value="00098" />
+      <option name="project" value="LOCAL" />
       <updated>1411678808520</updated>
     </task>
     <task id="LOCAL-00099" summary="v1.1">
       <created>1411679492363</created>
+      <option name="number" value="00099" />
+      <option name="project" value="LOCAL" />
       <updated>1411679492363</updated>
     </task>
     <task id="LOCAL-00100" summary="v1.1">
       <created>1411679953011</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
       <updated>1411679953011</updated>
     </task>
     <task id="LOCAL-00101" summary="v1.1">
       <created>1411680179091</created>
+      <option name="number" value="00101" />
+      <option name="project" value="LOCAL" />
       <updated>1411680179091</updated>
     </task>
     <task id="LOCAL-00102" summary="v1.1">
       <created>1411680402376</created>
+      <option name="number" value="00102" />
+      <option name="project" value="LOCAL" />
       <updated>1411680402376</updated>
     </task>
     <task id="LOCAL-00103" summary="v1.1">
       <created>1411730559358</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
       <updated>1411730559358</updated>
     </task>
     <task id="LOCAL-00104" summary="v1.1">
       <created>1411732324436</created>
+      <option name="number" value="00104" />
+      <option name="project" value="LOCAL" />
       <updated>1411732324436</updated>
     </task>
     <task id="LOCAL-00105" summary="v1.1">
       <created>1413922828747</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
       <updated>1413922828749</updated>
     </task>
     <task id="LOCAL-00106" summary="v1.1">
       <created>1413923601815</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
       <updated>1413923601816</updated>
     </task>
     <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1907" height="1055" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="0" width="1602" height="875" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14120668" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13963255" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -821,9 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <MESSAGE value="message" />
     <MESSAGE value="test1" />
     <MESSAGE value="v1.1" />
@@ -831,49 +806,53 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="23" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="4408">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneListener.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1767">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="23" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="4408">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -883,35 +862,81 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/amplitude.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index__20141021.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1411732315000" expanded="false" signature="573:602" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneListener.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1767">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="49" selection-start="6441" selection-end="6441" vertical-scroll-proportion="0.0" vertical-offset="3477" max-vertical-offset="4123">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -921,35 +946,39 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="9" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="646">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneListener.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1767">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="30" selection-start="5029" selection-end="5029" vertical-scroll-proportion="0.0" vertical-offset="2850" max-vertical-offset="4123">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -959,49 +988,81 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="646">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneListener.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1767">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneListener.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="33" selection-start="3579" selection-end="3593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1011,28 +1072,55 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneListener.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="17" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneListener.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1042,28 +1130,31 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="17" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1073,21 +1164,57 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="15" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1099,67 +1226,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneListener.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_popup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4294">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="0" selection-end="5059" vertical-scroll-proportion="-17.642857" vertical-offset="0" max-vertical-offset="2584">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/amplitude.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16986">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index__20141021.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="235" selection-end="6044" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="4408">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <marker date="1411732315000" expanded="false" signature="573:602" placeholder="..." />
           </folding>
@@ -1168,7 +1292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="28" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.5135135" vertical-offset="969" max-vertical-offset="4484">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1178,11 +1303,10 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1413924294144" expanded="true" signature="1401:1430" placeholder="..." />
+            <marker date="1413924294144" expanded="false" signature="1401:1430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
