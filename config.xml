@@ -5,7 +5,7 @@
         id        = "com.halloweenradio"
         version   = "1.4">
     
-    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="phonegap-version" value="3.7.0" />
     <name>Halloween radio</name>
 
     <description>
