@@ -42,8 +42,6 @@
         // Play audio
         function playAudio(src, title) {
 
-            status = "buffering";
-
             // Initiate Media object
             if(status =="stopped"){
                 my_media = new Media(src, function(){status = "playing"}, function(){console.log("playAudio():Error");});
