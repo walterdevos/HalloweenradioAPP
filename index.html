@@ -6,10 +6,8 @@
     <title>Halloweenradio.net 2014, every Halloween we make you scream! Halloween music all year round. Official haunted
         horror Halloween radio.</title>
 
-    <meta name="description"
-          content="Halloweenradio plays Halloween music and songs that will scare you, on this radio it's Halloween all year round! Listen to one of our three haunted radio channels."/>
-    <meta name="keywords"
-          content="halloween, music, songs, radio, webradio, livestream, sound, haunted, scary, creepy, hollow, maze, eary, bloody, shiver, haunt, house, free music"/>
+    <meta name="description" content="Halloweenradio plays Halloween music and songs that will scare you, on this radio it's Halloween all year round! Listen to one of our three haunted radio channels."/>
+    <meta name="keywords" content="halloween, music, songs, radio, webradio, livestream, sound, haunted, scary, creepy, hollow, maze, eary, bloody, shiver, haunt, house, free music"/>
 
     <meta name="viewport" content="width=device-width, user-scalable=no">
 
@@ -44,70 +42,24 @@
         // Play audio
         function playAudio(src, title) {
 
-
-
-            // Check status
-            if (my_media) {
-                my_media.getCurrentPosition(
-                        // success callback
-                        function (position) {
-                            if (position > 0) {
-                                status = 'playing';
-                            } else if (position == -1) {
-                                status = 'stopped';
-                            }
-
-                        },
-                        // error callback
-                        function (e) {
-                            console.log("Error getting pos=" + e);
-                        }
-                );
-            }
-
-            if (status == "playing") {
-                stopAudio();
-            }
+            status = "buffering";
 
             // Initiate Media object
-            if (!my_media) {
-                my_media = new Media(src, onSuccess, onError);
-                status = "buffering";
-
-            } else {
-                my_media.stop();
-                my_media = null;
-                my_media = new Media(src, onSuccess, onError);
+            if(status =="stopped"){
+                my_media = new Media(src, function(){status = "playing"}, function(){console.log("playAudio():Error");});
             }
-
-            // Play audio
-            my_media.stop();
-            my_media.play();
 
         }
 
 
         // Stop audio
         function stopAudio() {
-            if (my_media) {
+            if (status=="playing") {
                 my_media.stop();
                 status = 'stopped';
             }
 
-            clearInterval(mediaTimer);
-            mediaTimer = null;
         }
-
-        // onSuccess Callback
-        function onSuccess() {
-            console.log("playAudio():Audio Success");
-            status = 'ok';
-        }
-
-        function onError() {
-            console.log("playAudio():Error");
-        }
-
 
     </script>
 
@@ -120,8 +72,8 @@
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
         a = s.createElement(o),
                 m = s.getElementsByTagName(o)[0];
         a.async = 1;
@@ -152,12 +104,10 @@
                 <tr>
                     <td width="167" height="100" valign="top">
 
-                        <div
-                                style="background: url('images/layout/popup_player_main.png') no-repeat center top;">
+                        <div style="background: url('images/layout/popup_player_main.png') no-repeat center top;">
                             <div id="player">
                                 <div id="player-top">
-                                    <div id="amplitude-play-pause" class="amplitude-paused"
-                                         onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"></div>
+                                    <div id="amplitude-play-pause" class="amplitude-paused" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"></div>
                                 </div>
                             </div>
                         </div>
@@ -175,31 +125,21 @@
 
                             <div style="font-size:10px;">&nbsp;</div>
 
-                            <a href="webradio_other.php" title="Our other music stations"><img
-                                    src="images/layout/other-stations-button.png" width="147" height="26" border="0"
-                                    alt="Our other music stations"></a>
+                            <a href="webradio_other.php" title="Our other music stations"><img src="images/layout/other-stations-button.png" width="147" height="26" border="0" alt="Our other music stations"></a>
 
                         </div>
 
                     </td>
                     <td width="153" valign="top">
 
-                        <a href="#" title="Halloweenradio.net Atmosphere" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img
-                                src="images/layout/btn_player_atmosphere.png" width="153" height="50" border="0"
-                                alt="Halloweenradio.net Amosphere"></a><br/>
+                        <a href="#" title="Halloweenradio.net Atmosphere" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/layout/btn_player_atmosphere.png" width="153" height="50" border="0" alt="Halloweenradio.net Amosphere"></a><br/>
 
 
-                        <a href="#" title="Halloweenradio.net Oldies" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img
-                                src="images/layout/btn_player_oldies.png" width="153" height="50" border="0"
-                                alt="Halloweenradio.net Oldies"></a><br/>
+                        <a href="#" title="Halloweenradio.net Oldies" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/layout/btn_player_oldies.png" width="153" height="50" border="0" alt="Halloweenradio.net Oldies"></a><br/>
 
-                        <a href="#" title="Halloweenradio.net Kids" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img
-                                src="images/layout/btn_player_kids.png" width="153" height="50" border="0"
-                                alt="Halloweenradio.net Kids"></a><br/>
+                        <a href="#" title="Halloweenradio.net Kids" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/layout/btn_player_kids.png" width="153" height="50" border="0" alt="Halloweenradio.net Kids"></a><br/>
 
-                        <a href="#" title="Halloweenradio.net Movies" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img
-                                src="images/layout/btn_player_movies.png" width="153" height="50" border="0"
-                                alt="Halloweenradio.net Movies"></a><br/>
+                        <a href="#" title="Halloweenradio.net Movies" onclick="playAudio('http://listen.radionomy.com/halloweenradionet','Halloweenradio');"><img src="images/layout/btn_player_movies.png" width="153" height="50" border="0" alt="Halloweenradio.net Movies"></a><br/>
 
                     </td>
                 </tr>
